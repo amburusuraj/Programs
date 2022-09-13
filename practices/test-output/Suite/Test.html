@@ -1,0 +1,139 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>5/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Jul 28 20:47:12 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (67 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>smoke e2e </td>
+</tr><tr>
+<td>Excluded groups:</td><td>reg </td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='examples.Reg3Test.x()'><b>x</b><br>Test class: examples.Reg3Test<br/>
+<a href="#Output-1771031738" onClick='toggleBox("Output-1771031738", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1771031738" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1771031738">
+End2End Test<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>examples.Reg3Test@50b5ac82</td></tr>
+<tr>
+<td title='examples.Reg02Test.a()'><b>a</b><br>Test class: examples.Reg02Test<br/>
+<a href="#Output-1180550859" onClick='toggleBox("Output-1180550859", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1180550859" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1180550859">
+Smoke Test<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>examples.Reg02Test@306f16f3</td></tr>
+<tr>
+<td title='examples.Reg01Test.e()'><b>e</b><br>Test class: examples.Reg01Test<br/>
+<a href="#Output-774726565" onClick='toggleBox("Output-774726565", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-774726565" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-774726565">
+End2End Test<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>examples.Reg01Test@3059cbc</td></tr>
+<tr>
+<td title='examples.Reg02Test.d()'><b>d</b><br>Test class: examples.Reg02Test<br/>
+<a href="#Output-1406758135" onClick='toggleBox("Output-1406758135", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1406758135" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1406758135">
+Smoke  and End2End Test<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>examples.Reg02Test@306f16f3</td></tr>
+<tr>
+<td title='examples.Reg3Test.y()'><b>y</b><br>Test class: examples.Reg3Test<br/>
+<a href="#Output-1077804306" onClick='toggleBox("Output-1077804306", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1077804306" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1077804306">
+Smoke  and End2End Test<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>examples.Reg3Test@50b5ac82</td></tr>
+</table><p>
+</body>
+</html>
